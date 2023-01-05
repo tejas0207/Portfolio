@@ -18,7 +18,7 @@ function Projects() {
           {/* My Recent <strong className="purple">Works </strong> */}
           Work in <strong className="purple">Progress 🔨 </strong>
         </h1>
-        {/* <p style={{ color: "white" }}>
+        <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -26,10 +26,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="get-filter"
+              description="A website featuring different filters applied on an image. get-filter website helps user to use different filters on different images and your favourite ones can be downloaded in the form of png/jpg/jfif."
+              ghLink="https://github.com/tejas0207/Mlops_Proj"
             />
           </Col>
 
@@ -37,10 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="RTO-NOTIFIER"
+              description="We have created RTO NOTIFIER Web Application to contact Vehicle's owner with just an image. This is cretaed using Flask framework and various computer vision libraries to detect car and extract the number plate. After retriving number, it checks the database and send a mail to the owner automatically."
+              ghLink="https://github.com/tejas0207/RTO-NOTIFIER"
             />
           </Col>
 
@@ -48,10 +46,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="chellam-search-kubernetes"
+              description="Web Application to automate our Kubernetes task. Using this, you don't need to remember any commands of Kubernetes , Just type as per your convenience in human language and our app will interpret it and do the needful stuffs for you."
+              ghLink="https://github.com/tejas0207/chellam-search-kubernetes"
+            // demoLink="https://www.linkedin.com/posts/tejas-gupta-9b20731a5_connections-familyman2-chellamsir-activity-6814575594798379008-0r9H"
             />
           </Col>
 
@@ -59,10 +57,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="DDoS-shield"
+              description="Built a real-time DDOS attack detection and prevention script that on the fly check for malicious IP’s attacking the server on daily basis and blocking them if approved . It also shows total traffic on website(daily as well as overall)"
+              ghLink="https://github.com/tejas0207/DDoS-shield"
             />
           </Col>
 
@@ -70,10 +67,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
+              title="flask_diabetes_prediction"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/tejas0207/flask_diabetes_prediction"
+
             />
           </Col>
 
@@ -81,14 +78,13 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Reader"
+              description="It's a Web Application which deals with converting text to speech. Not only it is limited to text but also we can make it read from an image. It is well intergated with cloud services like Polly, textract, etc. to fulfil the requirements."
+              ghLink="https://github.com/Rushikesh0125/Reader"
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </Container>
   );
